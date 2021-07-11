@@ -1,0 +1,90 @@
+{
+  "groups": [
+    {
+      "name": "database",
+      "sourceType": "org.flab.reservation.config.DatabaseConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "database.master.url",
+      "type": "java.lang.String",
+      "sourceType": "org.flab.reservation.config.properties.DBProperties"
+    },
+    {
+      "name": "database.master.username",
+      "type": "java.lang.String",
+      "sourceType": "org.flab.reservation.config.properties.DBProperties"
+    },
+    {
+      "name": "database.master.password",
+      "type": "java.lang.String",
+      "sourceType": "org.flab.reservation.config.properties.DBProperties"
+    },
+    {
+      "name": "database.master.connection-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "org.flab.reservation.config.properties.DBProperties"
+    },
+    {
+      "name": "database.master.max-connection",
+      "type": "java.lang.Integer",
+      "sourceType": "org.flab.reservation.config.properties.DBProperties"
+    },
+    {
+      "name": "database.master.min-connection",
+      "type": "java.lang.Integer",
+      "sourceType": "org.flab.reservation.config.properties.DBProperties"
+    },
+    {
+      "name": "database.master.idle-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "org.flab.reservation.config.properties.DBProperties"
+    },
+    {
+      "name": "database.master.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.flab.reservation.config.properties.DBProperties"
+    },
+    {
+      "name": "database.slave.url",
+      "type": "java.lang.String",
+      "sourceType": "org.flab.reservation.config.properties.DBProperties"
+    },
+    {
+      "name": "database.slave.username",
+      "type": "java.lang.String",
+      "sourceType": "org.flab.reservation.config.properties.DBProperties"
+    },
+    {
+      "name": "database.slave.password",
+      "type": "java.lang.String",
+      "sourceType": "org.flab.reservation.config.properties.DBProperties"
+    },
+    {
+      "name": "database.slave.connection-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "org.flab.reservation.config.properties.DBProperties"
+    },
+    {
+      "name": "database.slave.max-connection",
+      "type": "java.lang.Integer",
+      "sourceType": "org.flab.reservation.config.properties.DBProperties"
+    },
+    {
+      "name": "database.slave.min-connection",
+      "type": "java.lang.Integer",
+      "sourceType": "org.flab.reservation.config.properties.DBProperties"
+    },
+    {
+      "name": "database.slave.idle-timeout",
+      "type": "java.lang.Integer",
+      "sourceType": "org.flab.reservation.config.properties.DBProperties"
+    },
+    {
+      "name": "database.slave.read-only",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.flab.reservation.config.properties.DBProperties"
+    }
+  ]
+}

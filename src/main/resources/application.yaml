@@ -1,0 +1,33 @@
+spring:
+  profiles:
+    active: local
+  jpa:
+    open-in-view: false
+
+database:
+  master:
+    url: jdbc:mysql://localhost:3306/reservation_delegator?characterEncoding=utf8&autoReconnect=true&serverTimezone=UTC
+    username: root
+    password: 1234
+    connection-timeout: 5000
+    max-connection: 5
+    min-connection: 1
+    idle-timeout: 5000
+    read-only: false
+  slave:
+    url: jdbc:mysql://localhost:3306/reservation_delegator?characterEncoding=utf8&autoReconnect=true&serverTimezone=UTC
+    username: root
+    password: 1234
+    connection-timeout: 5000
+    max-connection: 5
+    min-connection: 1
+    idle-timeout: 5000
+    read-only: true
+
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: prod
