@@ -16,7 +16,7 @@
 	- on/off 기능 
 	- limit count 설정 (관리자 페이지에서 연동 시스템마다 다르게 설정이 가능하도록)
 	- 대기 순위 view page
-		- redis pub/sub 기능을 이용하여 현재 대기 순서 번호 제공
+		- websocket & redis pub/sub 기능을 이용하여 현재 대기 순서 번호 제공
 - OAuth2.0을 이용한 회원 관리
 	- OAuth 연동
 	- token 관리
