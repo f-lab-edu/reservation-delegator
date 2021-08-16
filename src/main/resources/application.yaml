@@ -31,3 +31,6 @@ database:
     idle-timeout: 5000
     read-only: true
 
+server:
+  host: ${SERVER_IP:127.0.0.1}
+  port: ${SERVER_PORT:8080}
