@@ -6,7 +6,7 @@ import org.springframework.web.socket.TextMessage;
 import org.springframework.web.socket.WebSocketSession;
 
 @Slf4j
-public class PushHandler extends AbstractWebSocketHandler {
+public class PushHandler extends ReservationDelegatorWebSocketHandler {
 
     public PushHandler(SessionManager sessionManager) {
         super(sessionManager);

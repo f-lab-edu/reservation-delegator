@@ -11,7 +11,7 @@ import org.springframework.web.socket.handler.TextWebSocketHandler;
 @Slf4j
 @Component
 @RequiredArgsConstructor
-public abstract class AbstractWebSocketHandler extends TextWebSocketHandler {
+public abstract class ReservationDelegatorWebSocketHandler extends TextWebSocketHandler {
 
     private final SessionManager sessionManager;
 
